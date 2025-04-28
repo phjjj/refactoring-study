@@ -1,0 +1,21 @@
+{
+  "name": "refactoring-study",
+  "version": "1.0.0",
+  "description": "## 🎯 스터디 목표 - 『리팩토링 2판』 완독 및 주요 개념 학습",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phjjj/refactoring-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phjjj/refactoring-study/issues"
+  },
+  "homepage": "https://github.com/phjjj/refactoring-study#readme",
+  "type": "module"
+}

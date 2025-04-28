@@ -1,4 +1,6 @@
 import createStatementData from './createStatementData.js';
+import plays from './plays.json' with { type: 'json' };
+import invoices from './invoices.json' with { type: 'json' };
 
 function statement(invoice, plays) {
     return renderPlainText(createStatementData(invoice, plays));
@@ -43,3 +45,6 @@ function usd(aNumber) {
         minimumFractionDigits: 2,
     }).format(aNumber / 100);
 }
+
+console.log(statement(invoices[0], plays));
+console.log(htmlStatement(invoices[0], plays));
